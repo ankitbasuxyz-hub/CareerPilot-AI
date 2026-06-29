@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=7860
+      - LOG_LEVEL=INFO
+      - PROFILE_STORE_PATH=/app/profile_store.json
+    volumes:
+      - ./profile_store.json:/app/profile_store.json
+    restart: always
