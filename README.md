@@ -21,6 +21,8 @@
 
 CareerPilot-AI is an AI-powered career guidance platform that provides personalized career advice, resume analysis, interview preparation, skill-gap detection, and learning roadmaps using an intelligent multi-agent architecture.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a3e07ab1-23a3-427e-83a7-13c2b745dcf5" />
+
 ## ✨ Features
 
 - 🤖 AI Career Advisor
