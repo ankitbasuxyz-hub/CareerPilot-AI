@@ -44,7 +44,7 @@ CareerPilot-AI is an AI-powered career guidance platform that provides personali
 
 ## 📂 Project Structure
 
-```text
+
 CareerPilot-AI/
 ├── agents/
 ├── utils/
