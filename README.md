@@ -1,104 +1,215 @@
-<div align="center">
+# 🚀 CareerPilot AI
 
-# 🚀 CareerPilot-AI
+> Your Offline Multi-Agent Career Copilot for Resume Analysis, Skill Mapping, Learning Roadmaps, Mock Interviews, and Career Guidance.
 
-### Your Personal AI Career Mentor
-
-*Helping students and professionals make smarter career decisions with AI.*
-
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Multi--Agent-8A2BE2?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-
-⭐ **Star this repository if you like the project!**
-
-</div>
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Gradio](https://img.shields.io/badge/Gradio-UI-orange)
+![AI](https://img.shields.io/badge/AI-Multi--Agent-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ---
 
-## 🌟 Overview
+## 📌 Overview
 
-CareerPilot-AI is an AI-powered career guidance platform that provides personalized career advice, resume analysis, interview preparation, skill-gap detection, and learning roadmaps using an intelligent multi-agent architecture.
+CareerPilot AI is an intelligent multi-agent career assistant that helps students and professionals prepare for their dream careers.
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a3e07ab1-23a3-427e-83a7-13c2b745dcf5" />
+Instead of using multiple tools, users can analyze resumes, identify missing skills, receive personalized learning roadmaps, practice interviews, and get career advice—all in one application.
 
-## ✨ Features
+The application runs locally, making it fast, private, and easy to use.
 
-- 🤖 AI Career Advisor
-- 📄 Resume Analyzer
-- 🎤 Interview Preparation
-- 📈 Skill Gap Analysis
-- 🛣️ Personalized Learning Roadmaps
-- ⚡ Fast & Lightweight
-- 🔒 Privacy-First Design
-- 🧩 Modular Multi-Agent Architecture
+---
 
-## 🛠️ Tech Stack
+# ✨ Features
+
+### 📄 Resume Review
+- Resume readiness score
+- Skill gap analysis
+- Strengths & weaknesses
+- Actionable resume improvements
+
+### 🧠 Learning Roadmap
+- Personalized learning plan
+- Milestone tracking
+- Technology recommendations
+- Progress checklist
+
+### 🎤 Mock Interview
+- AI-generated interview questions
+- Interactive interview practice
+- Answer evaluation
+- Feedback and improvement suggestions
+
+### 💡 Career Advisor
+- Career guidance
+- Salary estimation
+- Negotiation tips
+- Career transition advice
+
+### 📊 Dashboard
+- Resume readiness
+- Skill gap percentage
+- Roadmap progress
+- Overall career insights
+
+---
+
+# 🏗 Architecture
+
+CareerPilot AI follows a Multi-Agent Architecture.
+
+```
+                CareerPilot AI
+
+                     │
+     ┌───────────────┼───────────────┐
+     │               │               │
+ Resume Agent   Roadmap Agent   Interview Agent
+     │               │               │
+     └───────────────┼───────────────┘
+                     │
+             Career Advisor Agent
+                     │
+                User Dashboard
+```
+
+Each AI agent focuses on a specific task while working together to provide a complete career development experience.
+
+---
+
+# 🛠 Tech Stack
 
 - Python
 - Gradio
-- AI Agents
-- Docker
-- Git & GitHub
-
-## 📂 Project Structure
-
-
-CareerPilot-AI/
-├── agents/
-├── utils/
-├── tests/
-├── docs/
-├── app.py
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
-```
-
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/ankitbasuxyz-hub/CareerPilot-AI.git
-
-cd CareerPilot-AI
-
-pip install -r requirements.txt
-
-python app.py
-```
-
-## 🎯 Roadmap
-
-- [ ] Voice Assistant
-- [ ] Local LLM Integration
-- [ ] Resume PDF Parser
-- [ ] Job Recommendation Engine
-- [ ] Mobile Application
-- [ ] Cloud Deployment
-
-## 🤝 Contributing
-
-Contributions are always welcome!
-
-Fork → Create Branch → Commit → Push → Pull Request
-
-## 📜 License
-
-Licensed under the **MIT License**.
-
-## 👨‍💻 Author
-
-**Ankit **
-
-GitHub: https://github.com/ankitbasuxyz-hub
+- Google Gemini API
+- Multi-Agent Workflow
+- Prompt Engineering
 
 ---
 
-<div align="center">
+# 🚀 Installation
 
-### ⭐ If you found this project useful, consider giving it a Star!
+Clone the repository
 
-**Building the future of career guidance with AI. 🚀**
+```bash
+git clone https://github.com/yourusername/careerpilot-ai.git
+```
 
-</div>
+Go into the project
+
+```bash
+cd careerpilot-ai
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+python app.py
+```
+
+Open
+
+```
+http://127.0.0.1:7860
+```
+
+---
+
+# 📸 Demo
+
+### Dashboard
+- Resume Readiness
+- Skill Gap Analysis
+- Roadmap Progress
+
+### Resume Review
+Analyze resumes and receive improvement suggestions.
+
+### Learning Roadmap
+Generate personalized learning paths based on missing skills.
+
+### Mock Interview
+Practice interviews with AI-generated questions.
+
+### Career Advisor
+Receive salary insights and career recommendations.
+
+---
+
+# 🎯 Use Cases
+
+- Students
+- Fresh Graduates
+- Job Seekers
+- Career Switchers
+- Software Engineers
+
+---
+
+# 🔒 Privacy
+
+CareerPilot AI is designed to work locally.
+
+Your resume data stays on your machine and is never uploaded unless you explicitly configure external AI services.
+
+---
+
+# 🌟 Future Improvements
+
+- Resume PDF Upload
+- ATS Compatibility Score
+- Voice-based Interviews
+- Job Recommendation Agent
+- LinkedIn Profile Analysis
+- Cover Letter Generator
+- Portfolio Review
+- Resume Version History
+
+---
+
+# 📹 Video Demo
+
+Watch the complete demo here:
+
+**YouTube:** *(Add your video link here)*
+
+---
+
+# 📂 Project Structure
+
+```
+CareerPilot-AI/
+│
+├── app.py
+├── agents/
+├── prompts/
+├── utils/
+├── assets/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 👨‍💻 Author
+
+**Ankit Basu**
+
+GitHub: https://github.com/yourusername
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and supports future development.
+
+---
+
+## Built with ❤️ for the Kaggle AI Agents Intensive Vibe Coding Capstone.
