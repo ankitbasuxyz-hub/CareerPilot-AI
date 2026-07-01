@@ -19,7 +19,11 @@
 
 # 📸 Preview
 
+## 📊 Dashboard
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/56f2169f-977b-4111-84ed-ed1ca402c265" />
+
+## 📄 Resume Review
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41d51edb-d5de-46e2-9d39-d31f8e315780" />
 
 ---
 
