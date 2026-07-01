@@ -28,6 +28,12 @@
 ## 🛣️ Learning Roadmap
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c5237abe-bcdd-440e-9d9c-eae52d2fe6f6" />
 
+## 🎤 Mock Interview
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/da7b3d03-8d2c-42bc-92b5-dfd4227b8dfe" />
+
+## 💼 Career Advisor
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/47cdfddd-4596-4c93-bc0d-41b2dc646683" />
+
 ---
 
 # 🌟 Overview
