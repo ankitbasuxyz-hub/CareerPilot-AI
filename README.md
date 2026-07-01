@@ -25,6 +25,9 @@
 ## 📄 Resume Review
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41d51edb-d5de-46e2-9d39-d31f8e315780" />
 
+## 🛣️ Learning Roadmap
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c5237abe-bcdd-440e-9d9c-eae52d2fe6f6" />
+
 ---
 
 # 🌟 Overview
