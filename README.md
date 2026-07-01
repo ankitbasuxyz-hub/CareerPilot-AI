@@ -19,7 +19,7 @@
 
 # 📸 Preview
 
-> *(Add your dashboard screenshot or banner here)*
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/56f2169f-977b-4111-84ed-ed1ca402c265" />
 
 ---
 
@@ -139,12 +139,6 @@ Resume data is processed locally by default and remains under the user's control
 - Job Recommendation Agent
 - Mobile Application
 - Docker Deployment
-
----
-
-# 📹 Demo
-
-🎥 **YouTube:** *(Add your video link here)*
 
 ---
 
