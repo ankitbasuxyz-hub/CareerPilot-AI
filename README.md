@@ -39,18 +39,21 @@ CareerPilot-AI is an AI-powered career guidance platform that provides personali
 CareerPilot AI follows a Multi-Agent Architecture.
 
 
-                CareerPilot AI
-
-                     │
-     ┌───────────────┼───────────────┐
-     │               │               │
- Resume Agent   Roadmap Agent   Interview Agent
-     │               │               │
-     └───────────────┼───────────────┘
-                     │
-             Career Advisor Agent
-                     │
-                User Dashboard
+    ```text
+                 CareerPilot AI
+                        │
+                        ▼
+               Coordinator Agent
+                        │
+      ┌───────────┬───────────┬───────────┐
+      ▼           ▼           ▼           ▼
+ Resume      Learning     Mock       Career
+  Agent      Roadmap     Interview   Advisor
+              Agent        Agent       Agent
+                        │
+                        ▼
+                 Personalized Output
+```
 
 ## 🛠️ Tech Stack
 
